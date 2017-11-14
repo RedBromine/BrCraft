@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "BrCraft:salt_ore_block" }
+  }
+}

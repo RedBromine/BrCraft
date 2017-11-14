@@ -1,8 +1,8 @@
 [
 {
-  "modid": "BrCraft",
-  "name": "BrCraft",
-  "description": "It's a unique mod created by the GREAT RedBromine,which contains many chemical stuffs.",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

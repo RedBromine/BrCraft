@@ -1,13 +1,13 @@
-package com.BrCraft;
+ package com.BrCraft;
 
-import com.BrCraft.common.CommonProxy;
-import net.minecraft.init.Blocks;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+ import com.BrCraft.common.CommonProxy;
+ import net.minecraft.init.Blocks;
+ import net.minecraftforge.fml.common.Mod;
+ import net.minecraftforge.fml.common.Mod.EventHandler;
+ import net.minecraftforge.fml.common.SidedProxy;
+ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 /**
  * @author RedBromine

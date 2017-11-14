@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "BrCraft:magnetite_block" }
+  }
+}
