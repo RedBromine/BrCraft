@@ -1,6 +1,7 @@
 # BrCraft            
 
 （加星号的表示已有材质，请在main\resources\assets\brcraft\textures\blocks下寻找查看）
+
 1.盐矿：NaCl,MgCl,KCl            *
 2.黄铁矿：FeS2,CoS2,NiS2,RhS2            *
 3.赤铁矿：Fe2O3,TiO2            *
