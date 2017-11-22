@@ -4,13 +4,13 @@ import com.BrCraft.creativetab.CreativeTabsLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class SaltOreBlock extends Block {
-    public SaltOreBlock(){
-        super(Material.GROUND);
-        this.setUnlocalizedName("saltOreBlock");
-        this.setHardness(1F);
+public class GoldPlacerBlock extends Block{
+    public GoldPlacerBlock(){
+        super(Material.SAND);
+        this.setUnlocalizedName("GoldPlacerBlock");
+        this.setHardness(2F);
         this.setResistance(2F);
-        this.setLightOpacity(5);
+        this.setHarvestLevel("shovel",0);
         this.setCreativeTab(CreativeTabsLoader.tabBrCraft);
     }
 }

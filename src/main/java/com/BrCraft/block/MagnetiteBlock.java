@@ -6,11 +6,11 @@ import net.minecraft.block.material.Material;
 
 public class MagnetiteBlock extends Block{
     public MagnetiteBlock(){
-        super(Material.GROUND);
+        super(Material.ROCK);
         this.setUnlocalizedName("magnetiteBlock");
-        this.setHardness(4F);
-        this.setResistance(50F);
-        this.setHarvestLevel("WOOD",0);
+        this.setHardness(3F);
+        this.setResistance(5F);
+        this.setHarvestLevel("pickaxe",1);
         this.setCreativeTab(CreativeTabsLoader.tabBrCraft);
     }
 }

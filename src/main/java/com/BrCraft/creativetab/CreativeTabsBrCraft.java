@@ -16,9 +16,4 @@ public class CreativeTabsBrCraft extends CreativeTabs
     {
         return ItemLoader.saltOre;
     }
-    @Override
-    public boolean hasSearchBar()
-    {
-        return true;
-    }
 }

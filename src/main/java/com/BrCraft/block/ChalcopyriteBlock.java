@@ -4,10 +4,10 @@ import com.BrCraft.creativetab.CreativeTabsLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class TantaliteBlock extends Block{
-    public TantaliteBlock(){
+public class ChalcopyriteBlock extends Block{
+    public ChalcopyriteBlock(){
         super(Material.ROCK);
-        this.setUnlocalizedName("tantaliteBlock");
+        this.setUnlocalizedName("chalcopyriteBlock");
         this.setHardness(3F);
         this.setResistance(5F);
         this.setHarvestLevel("pickaxe",1);

@@ -17,8 +17,17 @@ public class BlockLoader
     public static Block chromiteBlock = new ChromiteBlock();
     public static Block hematiteBlock = new HematiteBlock();
     public static Block ilmeniteBlock = new IlmeniteBlock();
-    public static Block niobiteBlock = new NioboteBlock();
+    public static Block niobiteBlock = new NiobiteBlock();
     public static Block tantaliteBlock = new TantaliteBlock();
+    public static Block azuriteBlock = new AzuriteBlock();
+    public static Block borniteBlock = new BorniteBlock();
+    public static Block chalcociteBlock = new ChalcociteBlock();
+    public static Block chalcopyriteBlock = new ChalcopyriteBlock();
+    public static Block realgarBlock = new RealgarBlock();
+    public static Block orpimentBlock = new OrpimentBlock();
+    public static Block cinnabarBlock = new CinnabarBlock();
+    public static Block goldPlacerBlock = new GoldPlacerBlock();
+
     public BlockLoader(FMLPreInitializationEvent event)
     {
         register(saltOreBlock, "salt_ore_block");
@@ -29,6 +38,14 @@ public class BlockLoader
         register(ilmeniteBlock,"ilmenite_block");
         register(niobiteBlock,"niobite_block");
         register(tantaliteBlock,"tantalite_block");
+        register(azuriteBlock,"azurite_block");
+        register(borniteBlock,"bornite_block");
+        register(chalcociteBlock,"chalcocite_block");
+        register(chalcopyriteBlock,"chalcopyrite_block");
+        register(realgarBlock,"realgar_block");
+        register(orpimentBlock,"orpiment_block");
+        register(cinnabarBlock,"cinnabar_block");
+        register(goldPlacerBlock,"gold_placer_block");
     }
 
     @SideOnly(Side.CLIENT)
@@ -42,6 +59,14 @@ public class BlockLoader
         registerRender(ilmeniteBlock);
         registerRender(niobiteBlock);
         registerRender(tantaliteBlock);
+        registerRender(azuriteBlock);
+        registerRender(borniteBlock);
+        registerRender(chalcociteBlock);
+        registerRender(chalcopyriteBlock);
+        registerRender(realgarBlock);
+        registerRender(orpimentBlock);
+        registerRender(cinnabarBlock);
+        registerRender(goldPlacerBlock);
     }
 
     private static void register(Block block, String name)
