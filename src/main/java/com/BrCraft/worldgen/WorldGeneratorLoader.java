@@ -6,6 +6,8 @@ import net.minecraftforge.event.terraingen.OreGenEvent;
 import net.minecraftforge.fml.common.eventhandler.Event;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+import java.util.Random;
+
 public class WorldGeneratorLoader {
     private static net.minecraft.world.gen.feature.WorldGenerator oregenerator = new WorldGeneratorOre();
     private BlockPos pos;
@@ -27,6 +29,13 @@ public class WorldGeneratorLoader {
     public void onOreGenGenerateMinable(OreGenEvent.GenerateMinable event){
         if(event.getType() == OreGenEvent.GenerateMinable.EventType.IRON){
             event.setResult(Event.Result.DENY);
+        }
+        if(event.getType() == OreGenEvent.GenerateMinable.EventType.COAL){
+            Random random = new Random();
+            int i = 1+random.nextInt(99);
+            if(i >= 30){
+                event.setResult(Event.Result.DENY);
+            }
         }
     }
 }

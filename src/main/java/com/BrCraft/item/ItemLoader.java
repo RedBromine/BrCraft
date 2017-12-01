@@ -10,16 +10,28 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLoader {
     public static Item saltOre = new ItemSaltOre();
+    public static Item ironOxide = new ItemIronOxide();
+    public static Item copperOxide = new ItemCopperOxide();
+    public static Item mercuricOxide = new ItemMercuricOxide();
+    public static Item arsenicTrioxide = new ItemArsenicTrioxide();
 
     public ItemLoader(FMLPreInitializationEvent event)
     {
         register(saltOre, "salt_ore");
+        register(ironOxide,"iron_oxide");
+        register(copperOxide,"copper_oxide");
+        register(mercuricOxide,"mercuric_oxide");
+        register(arsenicTrioxide,"arsenic_trioxide");
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerRenders()
     {
         registerRender(saltOre);
+        registerRender(ironOxide);
+        registerRender(copperOxide);
+        registerRender(mercuricOxide);
+        registerRender(arsenicTrioxide);
     }
 
     private static void register(Item item, String name)

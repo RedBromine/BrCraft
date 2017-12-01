@@ -1,5 +1,6 @@
 package com.BrCraft.common;
 
+import com.BrCraft.Crafting.CraftingLoader;
 import com.BrCraft.block.BlockLoader;
 import com.BrCraft.creativetab.CreativeTabsBrCraft;
 import com.BrCraft.creativetab.CreativeTabsLoader;
@@ -20,11 +21,12 @@ public class CommonProxy {
     public void init(FMLInitializationEvent event)
     {
         new WorldGeneratorLoader();
+        new CraftingLoader();
     }
 
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        
     }
 
 }
